@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   <div>tum kon piy5555a!!</div>
   </React.StrictMode>,
   document.getElementById('root')
 );
