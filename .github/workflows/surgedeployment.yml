@@ -21,6 +21,6 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run:  surge ./build https://reactjsrun.surge.sh/ --token ${{secrets.REACT_SECRET_CODE}}  
+        run:  surge ./build https://reactjsrun.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}  
      
       
