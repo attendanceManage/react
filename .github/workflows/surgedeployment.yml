@@ -45,5 +45,5 @@ jobs:
         run: npm install --global surge
       
       - name: Deploy to Surge
-        run:  surge ./react ithappybirthdat.surge.sh --token ${{ secrets.REACT_SECRET_CODE}}  
+        run:  surge ./bday-balloons ithappybirthdat.surge.sh --token ${{ secrets.REACT_SECRET_CODE}}  
       
