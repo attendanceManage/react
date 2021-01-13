@@ -30,7 +30,7 @@ jobs:
         uses: dswistowski/surge-sh-action@v1
         with:
           domain: 'reactjsrun.surge.sh'
-          project: '.'
+          project: 'reactjsrun'
           login: ${{ secrets.SURGE_LOGIN}}
           token: ${{ secrets.SURGE_TOKEN }}
      
