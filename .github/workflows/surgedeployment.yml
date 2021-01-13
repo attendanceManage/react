@@ -1,6 +1,7 @@
 name: Deploy Website
-
-on: [push]
+on:
+  push:
+    branches: [ master ]
 
 
 jobs:
@@ -15,9 +16,8 @@ jobs:
         with:
           node-version: 12
        
-      - uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: install # will run `yarn install` command
+      - name: Install packages
+        run: npm install
   
 
       - name: Build React App
